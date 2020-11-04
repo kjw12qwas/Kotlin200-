@@ -1,6 +1,6 @@
 package Part2.ex_package
 
-class Person constructor(name:String,age: Int){
+open class Person constructor(name:String, age: Int){
     val name: String
     val age: Int
 
