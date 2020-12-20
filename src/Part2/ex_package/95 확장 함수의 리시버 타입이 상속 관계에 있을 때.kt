@@ -6,6 +6,6 @@ fun AAA95.hello() = println("AAA")
 fun BBB.hello() = println("BBB")
 
 fun main() {
-    val test : AAA95 = BBB()
-    test.hello()
+    val test95 : AAA95 = BBB()
+    test95.hello()
 }
