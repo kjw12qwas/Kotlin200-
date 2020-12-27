@@ -1,0 +1,8 @@
+package Part2.ex_package
+
+fun <T> toFunction(value:T): () -> T = { value }
+
+fun main() {
+    val func: () -> Int = toFunction<Int>(1107)
+    println(func())
+}
