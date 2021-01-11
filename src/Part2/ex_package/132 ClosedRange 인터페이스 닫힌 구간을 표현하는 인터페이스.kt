@@ -15,4 +15,5 @@ fun main() {
     println(longRange.endInclusive)
     println('*' in charRange)
     println(charRange.isEmpty())
+    //인터페이스
 }
