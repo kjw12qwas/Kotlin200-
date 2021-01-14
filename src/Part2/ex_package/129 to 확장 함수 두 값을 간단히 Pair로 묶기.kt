@@ -1,6 +1,8 @@
 package Part2.ex_package
 
-infix fun <A,B> A.to(that:B):Pair128<A,B> = Pair128(this,that)
+import kotlin.Pair
+
+infix fun <A,B> A.to(that:B): Pair128<A, B> = Pair128(this,that)
 
 
 fun main() {
